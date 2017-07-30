@@ -1,0 +1,317 @@
+header {
+  background: #ffffff;
+  border-bottom: 2px solid #dddddd;
+  overflow: wrap;
+  
+}
+
+.headname {
+	padding: 0;
+	color: #ffffff;
+	font-family: Georgia;
+	margin-left: 10%;
+	text-align: center;
+	background-color: #4aaaa5;
+	width: 40%;
+	float: left;
+	clear:both;
+	
+
+}
+
+.headlink > a {
+	float: right;
+	margin: 0 auto;
+	width: 10%;
+	font-family: arial;
+	line-height: 72px;
+	color #dddddd;
+}
+
+p {
+	font-family: Arial;
+	line-height: 20px;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+}
+
+.header2 {
+	color: #4aaaa5;
+	padding-left: 5%;
+	padding-right: 25px;
+}
+
+
+hr {
+	width: 90%;
+
+}
+
+.profilepic {
+	float:left;
+	padding: 10px;
+}
+
+.about-pane {
+	float:left;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.about {
+	float:left;
+	width: 65%;
+	border: 1px solid grey;
+	clear:both;
+}
+
+
+.connect {
+	float:right;
+	width: 30%;
+	border: 1px solid grey;
+	margin: 0 auto;
+	padding-bottom: 24px;
+	
+}
+
+.icons {
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+
+}
+
+.contact-pane {
+	float:left;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.contact {
+	float:left;
+	line-height: 48px;
+	border: 1px solid grey;
+	width: 50%;
+	padding-bottom: 5%;
+	clear:both;
+	overflow:wrap;
+
+}
+
+.port-pane {
+	float:left;
+	margin-left: 5%;
+	
+}
+
+.portfolio {
+	float:left;
+	border: 1px solid grey;
+	width: 65%;
+	
+		
+}
+
+.project-text {
+	float:left;
+	width: 30%;
+	margin-left: 15%;
+	
+	
+}
+
+.fields {
+	float:left;
+	margin-right: 20px;
+	clear:both;
+	display:block;
+
+}
+label {
+	float:left;
+	clear:both;
+}
+input {
+	border: 1px solid grey;
+	width: 250px;
+	height: 24px;
+	max-width: 100%;
+}
+textarea {
+	border: 1px solid grey;
+	width: 350px;
+	height: 200px;
+	max-width: 100%;
+}
+
+.submit {
+	font-size: 14px;
+	font-weight: bold;  
+	background-color: #4aaaa5;
+	border-style: outset;
+	border: 0px solid black;
+	text-align: center;
+	margin-left: 40%;
+	padding: 20px 20px 20px 20px;
+
+	
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-image: url('../images/topography.png');
+}
+
+.site-content {
+  flex: 1;
+}
+
+
+footer {
+	text-align: center;
+	font-family: arial;
+	border-top: 5px solid #4aaaa5;
+	background-color: #666666;
+}
+
+@media screen and (max-width: 980px) {
+	
+	.about {
+		width: 40%;
+		margin-left: 10%;
+		border: 1px solid grey;
+		clear:both;
+	}
+
+	.about > img {
+		width: 95%;
+		
+	}
+
+	.connect {
+		float:right;
+		width: 30%;
+		border: 1px solid grey;
+		margin-right: 10%;
+		
+	} 
+	
+	.contact {
+		
+		width: 50%;
+		clear: both;
+		overflow:wrap;
+	} 
+	
+	.portfolio {
+		width: 30%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	
+	.project-text {
+		width: 100%;
+		margin-left: 15%;
+		margin-right: 15%
+		
+		
+	}
+
+} 
+
+@media screen and (max-width: 768px) {
+	.about > img {
+		width: 65%;
+
+	}
+
+	.about {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+
+	}
+
+	.connect {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.contact {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	
+	.portfolio {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.project-text {
+		width: 30%;
+		margin-left: 5%;
+	}
+
+} 
+
+@media screen and (max-width: 640px) {
+	.headname {
+		float:left;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.headlink {
+		float:left;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.headlink > a {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	.about > img {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+
+	}
+
+	.about {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+
+	}
+
+	.connect {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.contact {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	
+	.portfolio {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.project-text {
+		width: 90%;
+		margin-left: 20%;
+	}
+
+}  
