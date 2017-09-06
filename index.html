@@ -1,96 +1,60 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head profile="http://www.w3.org/2005/10/profile">
-	<title>CTCheng's Webpage</title>
-
-	<link rel="icon" type="image/png" href="assets/images/think.png">
-	<!--Icon made by http://www.flaticon.com/authors/popcorns-arts from www.flaticon.com-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="assets/images/favicon-red.png">
+	<title>Chris Cheng's Webpage</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
 </head>
 
-<body class="site">
-	<header>
-		<div class="headname">
-			<h1 class="header1">Christopher T. Cheng</h1>
+<body>
+	<div class="wrapper">
+	<div class="tabcontent header" id="about">
+		<h2> About Me </h2>
+		<p>A bit about myself...</p>
+	</div>
+	<div class="tabcontent header" id="portfolio">
+		<h2>Portfolio</h2>
+		<p>Class Projects | Upwork</p>
+	</div>
+	<div class="tabcontent header" id="resume">
+		<h2>Resume</h2>
+		<p>Education | Experience | Skills</p>
+	</div>
+	<div class="tabcontent header" id="contact">
+		<h2>Contact Me</h2>
+		<p>Send me a message</p>
+	</div>
+	<button class="tablink" onclick="openTab('about', 'aboutcontent')" id="startTab"><span>About Me</span></button>
+	<button class="tablink" onclick="openTab('portfolio', 'portfoliocontent')"><span>Portfolio</span></button>
+	<button class="tablink" onclick="openTab('resume', 'resumecontent')"><span>Resume</span></button>
+	<button class="tablink" onclick="openTab('contact', 'contactcontent')"><span>Contact Me</span></button>
+	<div class="tabcontent" id="aboutcontent">
+		<!-- Card with about me content -->
+		About me test
+	</div>
+	<div class="tabcontent content" id="portfoliocontent">
+		<!-- Card with Classwork  Card for Upwork -->
+		portfolio test
+	</div>
+	<div class="tabcontent content" id="resumecontent">
+		<!-- Dropdowns Education / Experience/ Skills  Downloadable Resume.pdf-->
+		resume test
+	</div>
+	<div class="tabcontent content" id="contactcontent">
+		<!-- Contact card -->
+		contact me test
+	</div>
+	<div class"push"></div>
 
-		</div>
-
-		<div class="headlink">
-			<a href="index.html">About</a>
-			<a href="portfolio.html">Portfolio</a>
-			<a href="contact.html">Contact</a>
-
-		</div>
-
-		</header>
-
-		<br>
-
-		<div class="about-pane">
-			<div class="about">
-			<h1 class="header2">About Me</h1>
-
-			<hr>
-
-			<img class="profilepic" src="assets/images/mypic.png" alt="Profile Picture">
-
-			<p>I am from Raleigh, North Carolina. My undergraduate background is in Psychology with a minor in general business. In addition,
-				I earned a Juris Doctor degree in 2015 and became a licensed attorney in New York early in 2017. I have interned in several
-				courts, and had the opportunity to practice law with real clients during a clinic at my law school. Although my background
-				reflects my skills in legal work, I am more interested in Full-Stack Web Development.
-
-			</p>
-
-			<p>I enjoy reading, cooking, archery, woodworking, and restoring antique straight razors.
-
-			</p>
-
-			</div>
-
-
-			<div class="connect">
-				<h2 class="header2">Connect with Me</h2>
-
-				<hr>
-
-				<div class="icons">
-					
-					<a href="https://github.com/msgctcheng">
-
-								<img src="assets/images/github.png" alt="GitHub Icon" style="width:64px;height:64px;border:0;">
-								<!--Icon Sourced from https://www.iconfinder.com/-->
-					</a>
-
-					<a href="https://www.linkedin.com/in/christopher-cheng-bb9868b3/">
-							
-								<img src="assets/images/liin.png" alt="LinkedIn Icon" style="width:64px;height:64px;border:0;">
-								<!--Icon Sourced from https://www.iconfinder.com/-->
-					</a>
-
-					<a href="https://stackoverflow.com/users/8149372/chris-cheng?tab=profile">
-								
-								<img src="assets/images/stacko.png" alt="Stack Icon" style="width:64px;height:64px;border:0;">
-								<!--Icon Sourced from https://www.iconfinder.com/-->
-					</a>
-
-				</div>
-			</div>
-		</div>
-
-	<main class="site-content"></main>
-
-	<footer>
-		<p>© Copyright 2017 Christopher T. Cheng
-		</p>
-
-		<p><em>See</em> HTML for all icon sources.
-		</p>
-	</footer>
+	</div>
+	<footer class="footer"><p>A website by Chris Cheng</p></footer>
+	<script src="assets/javascript/main.js"></script>
 
 </body>
-
-
 
 </html>

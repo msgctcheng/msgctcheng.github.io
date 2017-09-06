@@ -1,0 +1,25 @@
+#F2AD9F - rosa - Main1 - 
+#F26968 - grapefruit - Header1
+#DFE2D2 - limestone - Cards1
+#6CBF84 - venice verde - Footer1
+#323339 - moss river - Text1
+
+
+
+
+
+
+
+FFC52C
+E89B2B
+FF8633
+E85931
+FF4641
+
+
+
+4C4C4C
+292929
+8C8C8C
+
+
