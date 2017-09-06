@@ -1,6 +1,6 @@
 body {
     font-family: "Helvetica";
-    background-color: #F2AD9F;
+    
 }
 html, body {
     height: 100%;
@@ -9,12 +9,13 @@ html, body {
 .wrapper {
     min-height: 100%;
     margin-bottom: -50px;
+    background-color: #C0DFC7;
 }
 .footer, .push {
     height: 50px;
 }
 .tablink {
-    background-color: #6CBF84;
+    background-color: #7DDF92;
     color: white;
     float: left;
     border: none;
@@ -23,6 +24,8 @@ html, body {
     width: 25%;
     text-align: center;
     transition: all 0.5s;
+    font-size: 16px;
+    padding: 5px;
     
 }
 .tablink span {
@@ -47,21 +50,38 @@ html, body {
     right: 0;
 }
 .header {
-    background-color: #F26868;
+    background-color: #529360;
     color: white;
     display: none;
-    padding: 25px;
+    padding: 10px;
     text-align: center;
+    line-height: 75%;
 }
-.content{
-    background-color: #F2AD9F;
-    
 
-
-}
 footer {
-    background-color: #6CBF84;
+    background-color: #36603F;
     color: white;
     text-align: center;
     vertical-align: center;
+}
+.cardwrap {
+    max-width: 75%;
+    margin: auto;
+    padding: 5px;
+    max-height: 50%;
+ 
+    
+}
+.card {
+    background: #8EA593 !important;
+
+
+}
+.cardimg {
+    float: left;
+}
+.cardcontent {
+    float: left;
+    padding-left: 5px;
+    height: 100%;
 }

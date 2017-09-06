@@ -4,10 +4,11 @@
 #6CBF84 - venice verde - Footer1
 #323339 - moss river - Text1
 
-
-
-
-
+7DDF92 - sea foam
+8EA593 - grey
+529360 - mid green
+C0DFC7 - greenishwhite 
+36603F - forest green
 
 
 FFC52C

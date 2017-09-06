@@ -14,18 +14,22 @@
 <body>
 	<div class="wrapper">
 	<div class="tabcontent header" id="about">
+		<img src="assets/images/ChengLogo-White.png" alt="My Logo">
 		<h2> About Me </h2>
 		<p>A bit about myself...</p>
 	</div>
 	<div class="tabcontent header" id="portfolio">
+		<img src="assets/images/ChengLogo-White.png" alt="My Logo">
 		<h2>Portfolio</h2>
 		<p>Class Projects | Upwork</p>
 	</div>
 	<div class="tabcontent header" id="resume">
+		<img src="assets/images/ChengLogo-White.png" alt="My Logo">
 		<h2>Resume</h2>
 		<p>Education | Experience | Skills</p>
 	</div>
 	<div class="tabcontent header" id="contact">
+		<img src="assets/images/ChengLogo-White.png" alt="My Logo">
 		<h2>Contact Me</h2>
 		<p>Send me a message</p>
 	</div>
@@ -33,9 +37,18 @@
 	<button class="tablink" onclick="openTab('portfolio', 'portfoliocontent')"><span>Portfolio</span></button>
 	<button class="tablink" onclick="openTab('resume', 'resumecontent')"><span>Resume</span></button>
 	<button class="tablink" onclick="openTab('contact', 'contactcontent')"><span>Contact Me</span></button>
+
 	<div class="tabcontent" id="aboutcontent">
 		<!-- Card with about me content -->
-		About me test
+	 <div class="cardwrap">
+		<div class="card" style="background-color: #8EA593">
+			<img class="cardimg" src="assets/images/mypic.png" style="width: 35%">
+			<div class="cardcontent" style="width: 50%">
+				<h3>Christopher T. Cheng</h3>
+				<p>Stuff about me...</p>
+			</div>
+		</div>
+	</div>
 	</div>
 	<div class="tabcontent content" id="portfoliocontent">
 		<!-- Card with Classwork  Card for Upwork -->
@@ -49,10 +62,11 @@
 		<!-- Contact card -->
 		contact me test
 	</div>
+
 	<div class"push"></div>
 
 	</div>
-	<footer class="footer"><p>A website by Chris Cheng</p></footer>
+	<footer class="footer"><p></p><p>A website by Chris Cheng</p></footer>
 	<script src="assets/javascript/main.js"></script>
 
 </body>
