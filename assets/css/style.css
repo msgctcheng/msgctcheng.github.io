@@ -14,9 +14,8 @@ body {
     background-color: #C0DFC7;
 }
 
-.footer,
-.push {
-    height: 20%;
+.footer {
+    height: 10%;
 }
 
 .tablink {
@@ -145,10 +144,33 @@ footer {
     padding: 5px;
     background: white;
     margin: 5px;
-
+    width: 150px;
 }
 .thumbnail:hover {
     box-shadow: 0 0 10px 6px #7DDF92;
+}
+button.dropdown {
+    background-color: #529360;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 97.5%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 1s;
+    font-size: 18px;
+
+}
+button.dropdown.active, button.dropdown:hover {
+    background-color: #7DDF92;
+}
+div.dropcontent {
+    padding: auto;
+    background-color: #C0DFC7;
+    color: #36603F;
+    display: none;
+    width: 97.5%;
 }
 .socialbox {
     margin-left: 20%;
@@ -158,3 +180,19 @@ footer {
     margin-left: 30%;
 }
 
+button.download {
+    float: right;
+    background-color:#529360;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    width: 15%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 1s;
+    margin-right: 20px;
+}
+button.download:hover {
+    background-color: #7DDF92;
+}
