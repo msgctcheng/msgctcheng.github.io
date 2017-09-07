@@ -87,7 +87,7 @@ footer {
 .card {
     background-color: #8EA593;
     color: white;
-    width: 75%;
+    width: 55%;
     height: 75%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
@@ -97,8 +97,30 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    padding: auto;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
 }
-
+.head {
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+}
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.fadeIn {
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+}
 .cardimg {
     padding-left: 10px;
     padding-top: 10px;
@@ -109,8 +131,12 @@ footer {
 .cardcontent {
     padding-left: 20px;
     height: 100%;
-    width: 55%;
+    width: 97%;
 }
+
+
+
+
 .socialbox {
     margin-left: 20%;
  

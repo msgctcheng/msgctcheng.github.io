@@ -12,32 +12,32 @@
 	<div class="wrapper">
 		<div class="tabcontent header" id="about">
 			<img src="assets/images/ChengLogo-White.png" alt="My Logo">
-			<h2> About Me </h2>
-			<p>A bit about myself...</p>
+			<h1 class="head fadeIn"> About Me </h1>
+			<p class="head fadeIn">A bit about myself...</p>
 		</div>
 		<div class="tabcontent header" id="portfolio">
 			<img src="assets/images/ChengLogo-White.png" alt="My Logo">
-			<h2>Portfolio</h2>
-			<p>Class Projects | Upwork</p>
+			<h1 class="head fadeIn">Portfolio</h1>
+			<p class="head fadeIn">Class Projects | Upwork</p>
 		</div>
 		<div class="tabcontent header" id="resume">
 			<img src="assets/images/ChengLogo-White.png" alt="My Logo">
-			<h2>Resume</h2>
-			<p>Education | Experience | Skills</p>
+			<h1 class="head fadeIn">Resume</h1>
+			<p class="head fadeIn">Education | Experience | Skills</p>
 		</div>
 		<div class="tabcontent header" id="contact">
 			<img src="assets/images/ChengLogo-White.png" alt="My Logo">
-			<h2>Contact Me</h2>
-			<p>Send me a message</p>
+			<h1 class="head fadeIn" >Contact Me</h1>
+			<p class="head fadeIn">Send me a message</p>
 		</div>
 		<button class="tablink" onclick="openTab('about', 'aboutcontent')" id="startTab"><span>About Me</span></button>
 		<button class="tablink" onclick="openTab('portfolio', 'portfoliocontent')"><span>Portfolio</span></button>
 		<button class="tablink" onclick="openTab('resume', 'resumecontent')"><span>Resume</span></button>
 		<button class="tablink" onclick="openTab('contact', 'contactcontent')"><span>Contact Me</span></button>
 		<div class="tabcontent content" id="aboutcontent">
-			<div class="card" style="background-color: #8EA593">
+			<div class="card fadeIn">
 				<img class="cardimg" src="assets/images/mypic.png">
-				<div class="cardcontent">
+				<div class="cardcontent" style="width: 66%">
 					<h2>Christopher T. Cheng</h2>
 					<hr>
 					<p>Stuff about me...</p>
@@ -45,17 +45,17 @@
 			</div>
 		</div>
 		<div class="tabcontent content" id="portfoliocontent">
-			<div class="card" style="background-color: #8EA593">
-				<div class="cardcontent" style="width: 95%; padding: auto;">
-					<h2>My Portfolio</h2>
+			<div class="card fadeIn">
+				<div class="cardcontent">
+					<h2>Class Projects</h2>
 					<hr>
 					<p>Portfolio items...</p>
 				</div>
 			</div>
 		</div>
 		<div class="tabcontent content" id="resumecontent">
-			<div class="card" style="background-color: #8EA593">
-				<div class="cardcontent" style="width: 95%; padding: auto;">
+			<div class="card fadeIn">
+				<div class="cardcontent">
 					<h2>My Resume</h2>
 					<hr>
 					<p>Resume dropdowns / download..</p>
@@ -63,8 +63,8 @@
 			</div>
 		</div>
 		<div class="tabcontent content" id="contactcontent">
-			<div class="card" style="background-color: #8EA593">
-				<div class="cardcontent" style="width: 95%; padding: auto;">
+			<div class="card fadeIn">
+				<div class="cardcontent">
 					<h2>Contact Me</h2>
 					<hr>
 					<p>Contact info...</p>
@@ -75,7 +75,6 @@
 		</div>
 	</div>
 	<footer class="footer">
-		
 		<p class="foottext">Copyright Ⓒ 2017 Chris Cheng</p>
 		<div class="socialbox">
 				<a href="https://github.com/msgctcheng" target="_blank">
