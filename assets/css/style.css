@@ -98,14 +98,14 @@ footer {
     flex-direction: row;
     align-items: flex-start;
     padding: auto;
-    animation-duration: 1.5s;
-    -webkit-animation-duration: 1.5s;
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
     animation-fill-mode: both;
     -webkit-animation-fill-mode: both;
 }
 .head {
-    animation-duration: 1.5s;
-    -webkit-animation-duration: 1.5s;
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
     animation-fill-mode: both;
     -webkit-animation-fill-mode: both;
 }
@@ -127,21 +127,34 @@ footer {
     padding-bottom: 10px;
     width: 30%;
 }
-
 .cardcontent {
     padding-left: 20px;
     height: 100%;
     width: 97%;
 }
+.thumbnailbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
+}
+.thumbnail {
+    border: 1px solid white;
+    border-radius:4px;
+    padding: 5px;
+    background: white;
+    margin: 5px;
 
-
-
+}
+.thumbnail:hover {
+    box-shadow: 0 0 10px 6px #7DDF92;
+}
 .socialbox {
     margin-left: 20%;
  
 }
 .foottext {
-    margin-left: 35%;
+    margin-left: 30%;
 }
 
