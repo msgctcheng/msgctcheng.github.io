@@ -1,4 +1,3 @@
-
 var drop = document.getElementsByClassName("dropdown");
 var i;
 for (i = 0; i < drop.length; i++) {
@@ -12,11 +11,6 @@ for (i = 0; i < drop.length; i++) {
             }
         }
     }
-
-
-
-
-
 function openTab(name, content) {
     var i;
     var tabContent;
@@ -25,13 +19,7 @@ function openTab(name, content) {
     for (var i = 0; i < tabContent.length; i++) {
         tabContent[i].style.display = "none";
     }
-   
     document.getElementById(name).style.display = "block";
     document.getElementById(content).style.display= "block";
-  
-
 }
 document.getElementById("startTab").click(); 
-
-
-
