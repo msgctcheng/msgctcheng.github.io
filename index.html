@@ -20,7 +20,7 @@
 		<div class="tabcontent header" id="portfolio">
 			<img src="assets/images/ChengLogo-White.png" alt="My Logo">
 			<h1 class="head fadeIn">Portfolio</h1>
-			<p class="head fadeIn">Class Projects | Upwork</p>
+			<p class="head fadeIn">Projects</p>
 		</div>
 		<div class="tabcontent header" id="resume">
 			<img src="assets/images/ChengLogo-White.png" alt="My Logo">
@@ -32,20 +32,30 @@
 			<h1 class="head fadeIn">Contact Me</h1>
 			<p class="head fadeIn">Send me a message</p>
 		</div>
-		<button class="tablink" onclick="openTab('about', 'aboutcontent')" id="startTab"><span>About Me</span></button>
-		<button class="tablink" onclick="openTab('portfolio', 'portfoliocontent')"><span>Portfolio</span></button>
-		<button class="tablink" onclick="openTab('resume', 'resumecontent')"><span>Resume</span></button>
-		<button class="tablink" onclick="openTab('contact', 'contactcontent')"><span>Contact Me</span></button>
+		<button class="tablink" onclick="openTab('about', 'aboutcontent')" id="startTab">
+			<span>About Me</span>
+		</button>
+		<button class="tablink" onclick="openTab('portfolio', 'portfoliocontent')">
+			<span>Portfolio</span>
+		</button>
+		<button class="tablink" onclick="openTab('resume', 'resumecontent')">
+			<span>Resume</span>
+		</button>
+		<button class="tablink" onclick="openTab('contact', 'contactcontent')">
+			<span>Contact Me</span>
+		</button>
 		<div class="tabcontent content" id="aboutcontent">
 			<div class="card fadeIn">
 				<img class="cardimg" src="assets/images/mypic.png">
 				<div class="cardcontent" style="width: 60%">
 					<h2>Christopher T. Cheng</h2>
 					<hr>
-					<p>I am a certified Full Stack Developer with a BS in Psychology and a minor in General Business. </p> 
-					<p>I am a licensed attorney, but my real passion is in Web Development. </p> 
-					<p>I recently completed a Full-Stack Development Boot Camp certified by UNC Chapel Hill focused on Web Development, including HTML5, CSS3, Bootstrap/other CSS Frameworks, JavaScript, and jQuery, Node, REACT, Express, MySQL, MongoDB, and more.</p>
-					<p>I am an excellent communicator, a fast learner, and an efficient worker.  Thanks to my experience in law, I excel at logical reasoning, attention to detail, and problem solving.</p>
+					<p>I am a certified Full Stack Developer with a BS in Psychology and a minor in General Business. </p>
+					<p>I am a licensed attorney, but my real passion is in Web Development. </p>
+					<p>I recently completed a Full-Stack Development Boot Camp certified by UNC Chapel Hill focused on Web Development, including
+						HTML5, CSS3, Bootstrap/other CSS Frameworks, JavaScript, and jQuery, Node, React, Express, MySQL, MongoDB, and more.</p>
+					<p>I am an excellent communicator, a fast learner, and an efficient worker. Thanks to my experience in law, I excel at
+						logical reasoning, attention to detail, and problem solving.</p>
 					<p>Please feel free to contact me for more information, I look forward to hearing from you!</p>
 				</div>
 			</div>
@@ -53,26 +63,48 @@
 		<div class="tabcontent content" id="portfoliocontent">
 			<div class="card fadeIn">
 				<div class="cardcontent">
-					<h2>Projects/Applications</h2>
+					<h2>Portfolio</h2>
 					<hr>
 					<div class="thumbnailbox">
-						<a href="https://msgctcheng.github.io/train-schedule/" target="_blank">
-							<img class="thumbnail" src="assets/images/trainscheduler.png">
-						</a>
-						<a href="https://msgctcheng.github.io/TriviaGame" target="_blank">
-							<img class="thumbnail" src="assets/images/triviagame.png"> 
-						</a>
-						<a href="https://dreadsovereign.github.io/project1" target="_blank">
-							<img class="thumbnail" src="assets/images/groupproject1.png"> 
-						</a>
+						<div class="tooltip">
+							<a href="https://msgctcheng.github.io/train-schedule/" target="_blank">
+								<img class="thumbnail" src="assets/images/trainscheduler.png">
+							</a>
+							<span class="tooltipText">HTML5 JS/jQuery Materialize CSS Moment.js Firebase</span>
+						</div>
+
+						<div class="tooltip">
+							<a href="https://dreadsovereign.github.io/project1" target="_blank">
+								<img class="thumbnail" src="assets/images/groupproject1.png">
+							</a>
+							<span class="tooltipText">HTML5/CSS3 JS/jQuery AJAX OMDB Marvel Walmart</span>
+						</div>
+
+						<p> NOTE: This Page is Currently Under Construction!! </p>
+					</div>
+				</div>
+			</div>
+			<div class="card fadeIn">
+				<div class="cardcontent">
+					<h2>Just for Fun/Learning</h2>
+					<hr>
+					<div class="tooltip">
 						<a href="https://msgctcheng.github.io/GiphyHomework
-						" target="_blank">
-								<img class="thumbnail" src="assets/images/giphyapihw.png"> 
+							" target="_blank">
+							<img class="thumbnail" src="assets/images/giphyapihw.png">
 						</a>
+						<span class="tooltipText"></span>
+					</div>
+					<div class="tooltip">
 						<a href="https://msgctcheng.github.io/week-4-game2" target="_blank">
-								<img class="thumbnail" src="assets/images/crystalgame.png"> 
+							<img class="thumbnail" src="assets/images/crystalgame.png">
 						</a>
-						<p> NOTE: This Page is Currently Being Updated! </p>
+					</div>
+					<div class="tooltip">
+						<a href="https://msgctcheng.github.io/TriviaGame" target="_blank">
+							<img class="thumbnail" src="assets/images/triviagame.png">
+						</a>
+						<span class="tooltipText">JS/jQuery HTML5/CSS3</span>
 					</div>
 				</div>
 			</div>
@@ -80,18 +112,31 @@
 		<div class="tabcontent content" id="resumecontent">
 			<div class="card fadeIn">
 				<div class="cardcontent">
-					<h2>My Resume <a target="_blank" href="assets/files/Christopher T. Cheng - Resume(T).pdf" download><button class="download">Download PDF Version</button></a></h2>
+					<h2>My Resume
+						<a target="_blank" href="assets/files/Christopher T. Cheng - Resume(T).pdf" download>
+							<button class="download">Download PDF Version</button>
+						</a>
+					</h2>
 					<hr>
-					<button class="dropdown">Education   &#9660;</i></button>
+					<button class="dropdown">Education &#9660;</i>
+					</button>
 					<div class="dropcontent">
 						<div class="education">
-							<h2><u>Education</u></h2>
-							<h3>UNC Chapel Hill - Chapel Hill, NC</h3>
-							<h3><i>Full Stack Web Development Boot Camp</i></h3>
-							<p><i>Full Stack Web Development Certification</i></p>
-							<p>Covered many programming languages/technologies including: HTML, CSS, JavaScript, jQuery, Bootstrap, Express.js, React.js, Node.js, REACT, Database Theory, MongoDB, MySQL, Git, C#, and more.</p>
+							<h2>
+								<u>Education</u>
+							</h2>
+							<h3>UNC Chapel Hill: Full Stack Web Development Boot Camp - Chapel Hill, NC</h3>
+							
+							<p>
+								<i>Full Stack Web Development Certification</i>
+							</p>
+							<ul>
+							<li>Covered many programming languages/technologies including: HTML, CSS, JavaScript, jQuery, Bootstrap, Express.js, React.js,
+								Node.js, REACT, Database Theory, MongoDB, MySQL, Git, C#, and more.</li></ul>
 							<h3>Charlotte School of Law - Charlotte, NC</h3>
-							<h4><i>Juris Doctor, May 2015</i></h4>
+							<h4>
+								<i>Juris Doctor, May 2015</i>
+							</h4>
 							<p>Honors:</p>
 							<ul>
 								<li>Recipient of a three year merit scholarship</li>
@@ -99,20 +144,29 @@
 								<li>Dean’s List, Fall 2012, Spring 2013, Fall 2013</li>
 							</ul>
 							<h3>Appalachian State University - Boone, NC</h3>
-							<h4><i>Bachelor of Science Degree in Psychology, December 2011</i></h4>
-							<h4><i>Minor in General Business</i></h4>
+							<h4>
+								<i>Bachelor of Science Degree in Psychology, December 2011</i>
+							</h4>
+							<h4>
+								<i>Minor in General Business</i>
+							</h4>
 						</div>
 					</div>
-					<button class="dropdown">Coding Experience   &#9660;</button>
+					<button class="dropdown">Coding Experience &#9660;</button>
 					<div class="dropcontent">
 						<div class="experience">
-							<h2><u>Coding Experience</u></h2>
+							<h2>
+								<u>Coding Experience</u>
+							</h2>
 							<h3>Budget Lite</h3>
-							<h4><i>Full Stack Developer</i></h4>
+							<h4>
+								<i>Full Stack Developer</i>
+							</h4>
 							<ul>
-								<li>Node, Express, MySQL, Sequelize, Google Auth, D3, & MVC Design Pattern  </li>
+								<li>Node, Express, MySQL, Sequelize, Google Auth, D3, & MVC Design Pattern </li>
 								<br>
-								<li>This app requires login via Google Auth and provides a simple budget tracking app with tables and graphs.  The user can add to or subtract from his/her budget via a modal form.</li>
+								<li>This app requires login via Google Auth and provides a simple budget tracking app with tables and graphs. The user
+									can add to or subtract from his/her budget via a modal form.</li>
 								<br>
 								<a href="https://secure-fortress-50009.herokuapp.com/" target="_blank">Page Link</a>
 								|
@@ -120,47 +174,64 @@
 							</ul>
 
 							<h3>Game Rally</h3>
-							<h4><i>Back End Developer</i></h4>
+							<h4>
+								<i>Back End Developer</i>
+							</h4>
 							<ul>
 								<li>Node, Express, React, MongoDB, Mongoose, Auth0, Cheerio, & Several APIs </li>
 								<br>
-								<li>This app aggregated data from various gaming news and media sites/APIs to provide an organized source for all a person’s video game information needs.</li>
+								<li>This app aggregated data from various gaming news and media sites/APIs to provide an organized source for all a person’s
+									video game information needs.</li>
 								<br>
-								<a href="https://gamerally.herokuapp.com" target="_blank">Page Link</a> | <a href="https://github.com/msgctcheng/burger" target="_blank">GitHub Link</a>
+								<a href="https://gamerally.herokuapp.com" target="_blank">Page Link</a> |
+								<a href="https://github.com/msgctcheng/burger" target="_blank">GitHub Link</a>
 							</ul>
 
 							<h3>MVC Burger App</h3>
-							<h4><i>Full Stack Developer</i></h4>
+							<h4>
+								<i>Full Stack Developer</i>
+							</h4>
 							<ul>
 								<li>Node, Express, Express-Handlebars, MySQL, and MVC Design Pattern.</li>
 								<br>
-								<li>This app lets users enter types of burgers, which are saved to a database then used to create a button.  Pressing the button allows the user to “eat” the burger, changing the database entry.</li>
+								<li>This app lets users enter types of burgers, which are saved to a database then used to create a button. Pressing
+									the button allows the user to “eat” the burger, changing the database entry.</li>
 								<br>
-								<a href="https://pacific-scrubland-98219.herokuapp.com/" target="_blank">Page Link</a> | <a href="https://github.com/msgctcheng/burger" target="_blank">GitHub Link</a>
+								<a href="https://pacific-scrubland-98219.herokuapp.com/" target="_blank">Page Link</a> |
+								<a href="https://github.com/msgctcheng/burger" target="_blank">GitHub Link</a>
 							</ul>
 
 							<h3>Train Scheduler</h3>
-							<h4><i>Full Stack Developer</i></h4>
+							<h4>
+								<i>Full Stack Developer</i>
+							</h4>
 							<ul>
 								<li>HTML5, CSS3, JavaScript, Moment.js, Materialize CSS, & Firebase.</li>
 								<br>
 								<li>It allows people to add custom train schedules, dynamically populated, that persisted after reloading the page. </li>
 								<br>
-								<a href="https://msgctcheng.github.io/train-schedule/" target="_blank">Page Link</a> | <a href="https://github.com/msgctcheng/train-schedule" target="_blank">GitHub Link</a>
+								<a href="https://msgctcheng.github.io/train-schedule/" target="_blank">Page Link</a> |
+								<a href="https://github.com/msgctcheng/train-schedule" target="_blank">GitHub Link</a>
 							</ul>
 
 							<h3>Marvel Character Aggregator</h3>
-							<h4><i>Full Stack Developer</i></h4>
+							<h4>
+								<i>Full Stack Developer</i>
+							</h4>
 							<ul>
 								<li>HTML5, JavaScript, CSS3, OMDB API, Marvel API, & Walmart API.</li>
 								<br>
-								<li>•	It used three API’s including OMDB, the Marvel API, and the Walmart API, and the front end was designed with Materialize CSS framework.</li>
+								<li>• It used three API’s including OMDB, the Marvel API, and the Walmart API, and the front end was designed with Materialize
+									CSS framework.</li>
 								<br>
-								<a href="https://dreadsovereign.github.io/project1/" target="_blank">Page Link</a> | <a href="https://github.com/dreadsovereign/project1" target="_blank">GitHub Link</a>
+								<a href="https://dreadsovereign.github.io/project1/" target="_blank">Page Link</a> |
+								<a href="https://github.com/dreadsovereign/project1" target="_blank">GitHub Link</a>
 							</ul>
 
 							<h3>LIRI Node App</h3>
-							<h4><i>Back End Developer</i></h4>
+							<h4>
+								<i>Back End Developer</i>
+							</h4>
 							<ul>
 								<li>Node, Twitter API, Spotify API, & OMDB API.</li>
 								<br>
@@ -171,19 +242,25 @@
 
 						</div>
 					</div>
-					<button class="dropdown">Professional Experience   &#9660;</button>
+					<button class="dropdown">Professional Experience &#9660;</button>
 					<div class="dropcontent">
 						<div class="experience">
-							<h2><u>Work Experience</u></h2>
+							<h2>
+								<u>Work Experience</u>
+							</h2>
 							<h3>Freelancing - Void Digital Strategy & Design (UpWork)</h3>
-							<h4><i>Front End Developer - 2017</i></h4>
+							<h4>
+								<i>Front End Developer - 2017</i>
+							</h4>
 							<ul>
 								<li>Used HTML5 and CSS3 to create a customized landing page for the client.</li>
 								<li>Created media queries for mobile responsiveness.</li>
 								<li>Recieved a 5 star rating.</li>
 							</ul>
 							<h3>Charlotte School of Law Entrepreneurship Clinic</h3>
-							<h4><i>Student Attorney - Spring 2015</i></h4>
+							<h4>
+								<i>Student Attorney - Spring 2015</i>
+							</h4>
 							<ul>
 								<li>Practiced business law on a pro-bono basis under the supervision of Professor Rocky Cabagnot.</li>
 								<li>Performed a variety of legal research including but not limited to: the formation of partnerships, LLCs, corporations,
@@ -193,7 +270,9 @@
 							</ul>
 							<h3>The Honorable Hannah Cohen,</h3>
 							<h3>Kings County Housing Court - Brooklyn, NY</h3>
-							<h4><i>Intern - Summer 2013</i></h4>
+							<h4>
+								<i>Intern - Summer 2013</i>
+							</h4>
 							<ul>
 								<li>Researched landlord-tenant law specifically in regards to housing violations and eviction procedures.</li>
 								<li>Interviewed a high volume of petitioners seeking to show cause in order to stay evictions and provided the judge
@@ -203,19 +282,24 @@
 							</ul>
 							<h3>The Honorable Hannah Cohen,</h3>
 							<h3>Kings County Housing Court - Brooklyn, NY</h3>
-							<h4><i>Intern - Summer 2010</i></h4>
+							<h4>
+								<i>Intern - Summer 2010</i>
+							</h4>
 							<ul>
 								<li>Researched housing law regarding contempt for non-compliance of a repair order. </li>
 								<li>Prepared signed orders to show cause for petitioners seeking to stay evictions and provided procedural instructions.</li>
 							</ul>
 						</div>
 					</div>
-					<button class="dropdown">Skills   &#9660;</button>
+					<button class="dropdown">Skills &#9660;</button>
 					<div class="dropcontent">
 						<div class="skills">
-							<h2><u>Skills and Interests</u></h2>
+							<h2>
+								<u>Skills and Interests</u>
+							</h2>
 							<ul>
-								<li>HTML5, CSS3, GIT, Bootstrap/other CSS frameworks, JavaScript , jQuery, Ajax, Node, React, Express, MySQL, MongoDB, and more.</li>
+								<li>HTML5, CSS3, GIT, Bootstrap/other CSS frameworks, JavaScript , jQuery, Ajax, Node, React, Express, MySQL, MongoDB,
+									and more.</li>
 								<li>Proficient in the use of Microsoft Office Suite including Word, Excel, and Power Point.</li>
 								<li>Capable of troubleshooting and resolving issues in Windows Operating Systems and networks.</li>
 								<li>Experienced in the building of computer systems from individual parts.</li>
@@ -231,28 +315,33 @@
 				<div class="cardcontent">
 					<h2>Contact Me</h2>
 					<hr>
-					<p><strong>Email:</strong> msgctcheng@gmail.com</p>
+					<p>
+						<strong>Email:</strong> msgctcheng@gmail.com</p>
 				</div>
 			</div>
 		</div>
 	</div>
 	<footer class="footer">
-		<p class="foottext">Copyright Ⓒ 2017 Chris Cheng</p>
+		<div class="foottext">
+			<p>Copyright Ⓒ 2017 Chris Cheng</p>
+			<p>Style made with pure CSS3</p>
+		</div>
+
 		<div class="socialbox">
 			<a href="https://github.com/msgctcheng" target="_blank">
-					<img class="socialicon" src="assets/images/github-icon.png" alt="GitHub">
-				</a>
+				<img class="socialicon" src="assets/images/github-icon.png" alt="GitHub">
+			</a>
 			<a href="https://www.linkedin.com/in/msgctcheng/" target="_blank">
-					<img class="socialicon" src="assets/images/linkedin-icon.png" alt="LinkedIn"
-				</a>
-			<a href="https://stackoverflow.com/users/8149372/chris-cheng?tab=profile" target="_blank">
+				<img class="socialicon" src="assets/images/linkedin-icon.png" alt="LinkedIn" </a>
+				<a href="https://stackoverflow.com/users/8149372/chris-cheng?tab=profile" target="_blank">
 					<img class="socialicon" src="assets/images/stackover-icon.png" alt="StackOverflow">
 				</a>
-			<a href="https://www.upwork.com/o/profiles/users/_~013381cba8b4b7c66a/" target="_blank">
-					<img class="socialicon" src="assets/images/upwork-icon.png" alt="UpWork"> 
+				<a href="https://www.upwork.com/o/profiles/users/_~013381cba8b4b7c66a/" target="_blank">
+					<img class="socialicon" src="assets/images/upwork-icon.png" alt="UpWork">
 				</a>
 		</div>
 	</footer>
 	<script src="assets/javascript/main.js"></script>
 </body>
+
 </html>
